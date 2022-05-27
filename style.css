@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500&family=Montserrat&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Crimson Pro','Lora', 'Montserrat', sans-serif;
+    background-color: #181719;
+    color: white;
+    
+
+}
+
+.panel {
+    margin: 15px;
+    
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    justify-items: center;
+}
+
+.heading h3 {
+    font-weight: 200;
+    font-family: 'Crimpson Pro';
+    font-size: 14px;
+    padding: 5px;
+    border: 1px solid white;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+
+.main-section h1 {
+    font-size: 36px;
+    font-family: 'Lora';
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.text-area p {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    width: 250px;
+    line-height: 17px;
+    margin-bottom: 25px;
+
+}
+
+.more-section {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+   
+}
+
+.more-section p {
+    padding: 2px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.image-section .first-img {
+    width: 345px;
+    
+}
+
+.designer-info {
+    /* width: 85%;
+    height: ; */
+    width: 300px;
+    height: 138px;
+    background-color:  #181719;
+    margin-top: -50px;
+    padding: 15px;
+    margin-left: 20px;
+}
+
+.about-designer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+.name {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+}
+
+.int {
+    color: #828282;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 10px;
+}
+
+.designer-name {
+    margin-left: -20px;
+}
+.design-info  {
+    margin-left: 18px;
+    font-family: 'Lora';
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    line-height: 23px;
+}
+
+
+
+
+.designer-info img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.dev {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (min-width:600px) {
+    .panel {
+        margin: 50px ;
+    }
+
+   .image-section .first-img {
+        width: 500px;
+    }
+    .main-section {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .more-section {
+        width: 50%;
+    }
+
+    
+}
+
+@media screen and (min-width:1000px){
+    .panel {
+        margin: 70px ;
+    }
+    .main-section {
+        margin-bottom: 200px;
+    }
+
+    .main-section h1 {
+        font-size: 48px;
+    }
+
+    .text-area p {
+        font-size: 24px;
+        width: 320px;
+        line-height: 25px;
+    }
+
+    .more-section {
+        align-items: center;
+        
+    }
+
+    .designer-info {
+        margin-left: 250px;
+    }
+
+    .text-area p br {
+        display: none;
+    }
+
+    .image-section {
+        background-size: contain;
+    }
+   .image-section .first-img {
+        width: 700px;
+    }
+}
