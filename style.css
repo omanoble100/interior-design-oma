@@ -11,8 +11,6 @@ body {
     font-family: 'Crimson Pro','Lora', 'Montserrat', sans-serif;
     background-color: #181719;
     color: white;
-    
-
 }
 
 .panel {
@@ -26,10 +24,38 @@ body {
     margin-bottom: 40px;
     justify-items: center;
     align-items: center;
+    margin: 15px; 
 }
 
 .menu {
     display: none;
+}
+.menu-mini {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding: 20px;
+    width: 100%;
+    transition: .3s ease-in;
+    
+}
+
+.close  {
+    margin-left: 280px;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.menu-mini a{
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .heading h3 {
@@ -78,7 +104,7 @@ body {
 }
 
 .more-section p {
-    width: 40%;
+    width: 50%;
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
@@ -154,11 +180,14 @@ body {
     text-align: center;
 }
 
-@media screen and (min-width:600px) {
+@media screen and (min-width:700px) {
     .panel {
         margin: 50px ;
     }
-
+    
+    .close{
+        display: none;
+    }
     .text-area {
         width: 33%;
     }
@@ -174,6 +203,10 @@ body {
 
    .image-section .first-img {
         width: 350px;
+    }
+
+    .menu {
+        display: none;
     }
 
     .menu-bar {
@@ -214,14 +247,17 @@ body {
         font-size: 25px;
     }
 
-    .text-area p {
+    /* .text-area p {
 
-    }
+    } */
 
     
 }
 
 @media screen and (min-width:1000px){
+    .close{
+        display: none;
+    }
     .panel {
         margin: 70px ;
     }
@@ -234,6 +270,10 @@ body {
     }
     .main-section h1 {
         font-size: 48px;
+    }
+
+    .icon {
+        display: none;
     }
 
     .text-area p {
