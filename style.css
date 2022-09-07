@@ -38,7 +38,7 @@ body {
     background: white;
     padding: 20px;
     width: 100%;
-    transition: .3s ease-in;
+    transition: 4s e all;
     
 }
 
@@ -48,6 +48,7 @@ body {
     color: black;
     font-weight: bold;
     cursor: pointer;
+    transition: .5s ease-in all;
 }
 
 .menu-mini a{
@@ -189,10 +190,12 @@ body {
         display: none;
     }
     .text-area {
-        width: 33%;
+        width: 35%;
     }
 
-
+    .more-section p {
+        width: 90%;
+    }
     .icon {
         display: none;
     }
@@ -239,12 +242,13 @@ body {
     }
 
     .more-section {
-        width: 50%;
+        width: 55%;
         margin-top: 20px;
     }
 
+    
     .main-section h1 {
-        font-size: 25px;
+        font-size: 30px;
     }
 
     /* .text-area p {
@@ -269,7 +273,7 @@ body {
         padding-right: 45px;
     }
     .main-section h1 {
-        font-size: 48px;
+        font-size: 47px;
     }
 
     .icon {
@@ -277,7 +281,7 @@ body {
     }
 
     .text-area p {
-        font-size: 24px;
+        font-size: 20px;
         width: 320px;
         line-height: 25px;
     }
@@ -288,7 +292,7 @@ body {
     }
 
     .designer-info {
-        margin-left: 250px;
+        margin-left: 200px;
     }
 
     .text-area p br {
@@ -297,8 +301,9 @@ body {
 
     .image-section {
         background-size: contain;
+        margin-left: 100px;
     }
    .image-section .first-img {
-        width: 700px;
+        width: 570px;
     }
 }
